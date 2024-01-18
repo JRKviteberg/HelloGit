@@ -6,5 +6,16 @@ class Program
     {
         Console.WriteLine("Hello, Git!");
         Console.WriteLine("My name is JR");
+
+        CountTo(num: 5);
+    }
+
+    static void CountTo(int num)
+    {
+        Console.WriteLine($"Counting to {num}");
+        for (int i = 1; i <= num; i++)
+        {
+            Console.WriteLine( i + " ... ");
+        }
     }
 }
